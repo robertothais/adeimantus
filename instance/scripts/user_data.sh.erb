@@ -1,0 +1,6 @@
+#!/bin/bash
+HOME=/home/ubuntu/
+cd $HOME
+echo "<%= public_keys %>" >> .ssh/authorized_keys
+su ubuntu -l -c "touch .ssh/config"
+su ubuntu -l -c "echo -e \"Host github.com\nStrictHostKeyChecking no\" >> .ssh/config"

@@ -1,0 +1,10 @@
+ejabberd:
+  config:
+    host: localhost
+    port: 5222
+    include_dir: /usr/local/lib/ejabberd/include
+    ebin_dir: /usr/local/lib/ejabberd/ebin
+    config_dir: /usr/local/etc/ejabberd
+  commands:
+    start: 'ejabberdctl start'
+    stop:  'ejabberdctl stop'

@@ -1,0 +1,7 @@
+admin:
+  username: admin
+  password: scars68:crucible
+
+domains: 
+  - chat.adeimantus.com
+  - staging.adeimantus.com

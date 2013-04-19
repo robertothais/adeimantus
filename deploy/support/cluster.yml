@@ -1,0 +1,10 @@
+secret_access_key_id: 1V0WZCXR2DNZA9PYMK02
+secret_access_key: xLegQYXB5GCCHqrtx4aQ1v5orWfis708VJOEZl64
+
+key_name: roberto
+security_group: default
+ami: ami-1084e479
+instance_type: t1.micro
+availability_zone: us-east-1c
+root_partition_size: 100
+load_balancer_name: adeimantus-load-balancer
